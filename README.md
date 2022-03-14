@@ -13,6 +13,7 @@ The model was deployed in a flask app in `app.py`.
 ## To Run 
 ```
 pip install -r requirements.txt
+```
+```
 python app.py
-
 ```
