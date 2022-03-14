@@ -22,7 +22,7 @@ def predict():
 
     prediction = model.predict([to_predict_list['text_to_pred']])
 
-    return render_template('predict.html', prediction = prediction)
+    return render_template('predict.html', prediction = prediction[0],text = to_predict_list['text_to_pred'])
 
 if __name__ == '__main__':
     app.run()
